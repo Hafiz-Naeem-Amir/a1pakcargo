@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+   margin: 0px;
+   padding: 0px;
+   /* overflow-x: hidden; */
+   border: none;
+   /* box-sizing: border-box; */
+   text-decoration: none;
+   border: none;
+   /* overflow-y: hidden; */
+   scroll-behavior: smooth;
+   /* font-family: 'Poppins', sans-serif; */
+}
+
+body {
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 14px;
+   line-height: 1.42857143;
+   color: #333;
+   background-color: #fff;
+}
+
+:root {
+   --border: 3px solid #28296a;
+   --text-color: #fff;
+   --min-color: #28296A;
+}
+
+
+h1 {
+
+
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   text-align: center;
+   font-size: 32px;
+   font-weight: bold;
+   color: #fff;
+   font-family: "Myriad Pro Bold";
+}
+
+h2 {
+   font-size: 30px;
+   font-weight: bold;
+
+   color: #28296a;
+   font-family: "Myriad Pro Bold";
+}
+
+h3 {
+   font-size: 15px;
+   color: var(--min-color);
+   font-size: bold;
+   padding-top: .7rem;
+   padding-bottom: .7rem;
+   font-weight: 500;
+   font-family: sans-serif;
+
+}
+
+p {
+   color: #000;
+   line-height: initial;
+}
+
+h4 {
+   font-size: 68px;
+}
+
+.btn {
+   background: #148503;
+   width: 285px;
+   padding: 12px 20px;
+   font-size: 18px;
+   display: flex;
+   color: white;
+   align-items: center;
+   justify-content: center;
+   margin: 1rem auto;
+   border-radius: 20px;
+}
+
+.btn:hover {
+
+   cursor: pointer;
+   color: white;
+   background-color: #28296A;
+}
+
+/* header section  */
+.background_img {
+   /* background: url('/imags/a2.jpg'); */
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+}
+
+.header {
+   width: 98%;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+}
+
+.navbar .menu {
+   display: none;
+   font-size: 50px;
+}
+
+nav {
+   display: flex;
+   align-items: center;
+}
+
+nav a {
+   padding: 0rem .6rem;
+   color: black;
+   font-size: 14px;
+
+   font-family: "Myriad Pro regular";
+   FONT-WEIGHT: bold;
+}
+
+nav a:hover {
+   color: var(--min-color);
+}
+
+.icon_2 {
+   width: 40px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 100%;
+   background-color: #16950D;
+}
+
+.icon_2 .whatsapp {
+   color: rgb(252, 252, 252);
+   margin-top: 5px;
+
+
+}
+
+.icon_2 p {
+
+   padding-left: 10px;
+   text-decoration: underline;
+   font-size: 20px;
+   color: #000;
+   font-family: "Myriad Pro regular";
+   FONT-WEIGHT: bold;
+   font-size: 25px;
+}
+
+.icon_2 i {
+   font-size: 1.8rem;
+   color: #fcfcfc;
+
+}
+
+.navbar p {
+   padding: 1rem;
+   font-family: "Myriad Pro regular";
+   FONT: bold;
+   font-weight: 100;
+   font-size: 22px;
+   text-decoration: underline;
+}
+
+/* banner container styling */
+.banner {
+   width: 100%;
+   /* background-color: brown; */
+}
+
+.container {
+   gap: 1.5rem;
+   width: 95%;
+   margin: 4% auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.banner .form {
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+   background-color: rgb(0 0 0 / 51%);
+   border: 3px solid #28296a;
+   /* border: 2px solid rgb(14, 13, 13); */
+}
+
+.form_container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 2rem;
+}
+
+.box {
+   line-height: 60px;
+   display: flex;
+   flex-direction: column;
+   color: white;
+   font-size: bold;
+   font-weight: 500;
+   font-size: 1rem;
+}
+
+.box input {
+   padding: .5rem;
+}
+
+.built {
+   display: flex;
+   background-color: #28296a;
+   justify-content: space-between;
+   justify-content: space-evenly;
+
+   padding-top: .5rem;
+   padding-bottom: .5rem;
+}
+
+.box input {
+   width: 100%;
+   padding: 7px 5px;
+   border-bottom: 1px solid #ccc;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   color: #fff;
+   background-color: rgb(255 255 255 / 0%);
+
+   font-family: "Myriad Pro regular";
+   outline: none;
+}
+
+::placeholder {
+   font-size: 1rem;
+   color: white;
+   font-size: bold;
+   font-weight: 500;
+}
+
+.services_logo {
+   display: flex;
+   justify-content: center;
+}
+
+.services {
+   display: none;
+
+
+}
+
+/* choose us section  */
+.choose_us {
+   width: 90%;
+   /* display: flex; */
+   margin: 0rem auto;
+   /* border: 1px solid red; */
+
+}
+
+.choose_container {
+   display: flex;
+}
+
+.choose_us h1 {
+   color: var(--min-color);
+}
+
+/* croussel */
+.crousel {
+   width: 45%;
+   /* gap: 2rem; */
+}
+
+.choose-box {
+   width: 70%;
+
+
+}
+
+/* Slideshow container */
+.slideshow-container {
+   width: 90%;
+   box-sizing: border-box;
+   padding: 1rem;
+   /* height: 700px; */
+   position: relative;
+   margin: auto;
+}
+
+/* Make the images invisible by default */
+.Containers {
+   display: none;
+}
+
+/* forward & Back buttons */
+.Back,
+.forward {
+   cursor: pointer;
+   position: absolute;
+   top: 48%;
+   width: auto;
+   margin-top: -23px;
+   padding: 17px;
+   color: grey;
+   font-weight: bold;
+   font-size: 19px;
+   transition: 1.4s ease;
+   border-radius: 0 5px 5px 0;
+   user-select: none;
+}
+
+/* Place the "forward button" to the right */
+.forward {
+   right: 0;
+   border-radius: 4px 0 0 4px;
+}
+
+/*when the user hovers,add a black background with some little opacity */
+.Back:hover,
+.forward:hover {
+   background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption Info */
+.Info {
+   color: #e3e3e3;
+   font-size: 16px;
+   padding: 10px 14px;
+   position: absolute;
+   bottom: 10px;
+   width: 100%;
+   text-align: center;
+}
+
+/* Worknumbering (1/3 etc) */
+.MessageInfo {
+   color: #0cf504;
+   font-size: 14px;
+   padding: 10px 14px;
+   position: absolute;
+   top: 0;
+}
+
+/* The circles or bullets and indicators */
+.dots {
+   cursor: pointer;
+   height: 16px;
+   width: 16px;
+   margin: 0 3px;
+   background-color: rgb(7, 247, 247);
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 1.5s ease;
+}
+
+.enable,
+.dots:hover {
+   background-color: #717161;
+}
+
+/* Faint animation */
+.fade {
+   -webkit-animation-name: fade;
+   -webkit-animation-duration: 1.4s;
+   animation-name: fade;
+   animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+   from {
+      opacity: .5
+   }
+
+   to {
+      opacity: 2
+   }
+}
+
+@keyframes fade {
+   from {
+      opacity: .5
+   }
+
+   to {
+      opacity: 2
+   }
+}
+
+.choose-box {
+   /* background-color: #0cf504; */
+
+}
+
+.choose-box .box_1 {
+   display: flex;
+   border: 2px solid rgba(255, 255, 255, 0.842);
+   width: 70%;
+   padding-top: .7rem;
+   margin: 0rem auto;
+   padding-bottom: .7rem;
+   gap: 1rem;
+
+}
+
+.box_1 #text_heading {
+   font-size: 22px;
+   /* padding-top: 1rem; */
+}
+
+.box_1 .text {
+   padding-left: 2rem;
+
+}
+
+.text p {
+   padding-top: .7rem;
+   padding-bottom: .7rem;
+   font-size: 16px;
+}
+
+/* services section  */
+.services_section {
+   background-color: #EFEFEF;
+}
+
+.services_section h1 {
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   color: var(--min-color);
+}
+
+.services_container {
+   width: 95%;
+   margin: 1rem auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 1rem;
+
+}
+
+.services_container .box {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 30px 20px;
+   border: 1px solid #28296a1a;
+   box-shadow: 0 0 30px rgb(40 41 106 / 22%);
+   background: #ffff;
+   border-radius: 4px;
+   overflow: hidden;
+   transition: ease all 0.35s;
+}
+
+#btn_box {
+   margin-top: 2rem;
+}
+
+.box_btn {
+   border: 2px solid #148503;
+   border-radius: 50px;
+   padding: 1rem;
+   color: var(--min-color);
+   font-family: sans-serif;
+   margin-top: 5rem;
+   font-size: 18px;
+   font-weight: 400;
+}
+
+.services_container .box:hover {
+   overflow: hidden;
+     width:500px ;
+     height: 500px;
+   /* transition: translatex(50%); */
+   /* background-color: #0cf504; */
+}

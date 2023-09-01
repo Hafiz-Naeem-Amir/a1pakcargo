@@ -1,0 +1,134 @@
+@media screen and (max-width:1246px) {
+          nav a{
+                    padding: 0rem .4rem;
+                    font-size: 13px;
+          }
+          .icon_2{
+                    width: 35px;
+                    height: 35px;
+          
+                    
+                    background-color: #118E09;
+          }
+          .icon_2 .whatsapp{
+                   
+                  margin-top: 5px;
+                 
+          }
+          
+          .icon_2 p{
+                    padding-left: 8px;                
+                    font: size 160px;
+                    font-size: 18px;
+          }
+          
+}
+@media screen and (max-width:1136px){
+        .logo{
+                width: 20% !important;
+                height: 20% !important;
+        }
+        nav a{
+                padding: 0rem .4rem;
+                font-size: 13px;
+             
+              
+      }
+}
+@media screen and (max-width:1090px) {
+        
+          nav a{
+                    padding: 0rem .3rem;
+                    font-size: 11px;
+                 
+                  
+          }
+          .navbar .menu{
+                    display: block;  
+          }
+          .icon_2 .whatsapp{
+                  margin-top: 5px;
+                 
+          }
+          
+          .icon_2 p{
+                    padding-left: 6px;                
+                    font: size 140px;
+                    font-size: 13px;
+          }
+          .banner_img{
+                display: none;
+          }
+          #container{
+                width: 100%;
+          }
+          
+          
+}
+@media screen and (max-width:991px) {
+          header{
+                   background-color: white;
+                    display: flex;
+                    align-items: center;
+          }
+          nav a{
+                    display: none;
+          }
+          .navbar i{
+                    display: block;
+                    
+          }
+         
+}
+@media screen and (max-width:768px){
+        .services{
+                display: block;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                justify-content: space-between;
+                justify-content: space-evenly;
+        }
+        .built{
+                flex-wrap: wrap;
+                gap: .3rem;
+
+        }
+        .built .h3{
+                font-size: 10px;
+               
+        }
+}
+@media screen and (max-width:425px){
+        .form .h1{
+                font-size: 15px;
+        }
+         .icon_2 {
+                width: 35px;
+                height: 35px;
+                border-radius: 100%;
+                background-color: #16950D;
+      }
+      .icon_2 .whatsapp i{
+        font-size: 30px;
+        padding-bottom:4px;
+     }
+      
+      .icon_2 .whatsapp {
+                color: rgb(252, 252, 252);
+                margin-top: 3px;
+      
+          
+}
+.header .menu{
+        font-size: 30px;
+}
+.form_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+     }
+     .form .h1{
+        font-size: 1.5rem;
+     }
+}
