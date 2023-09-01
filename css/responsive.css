@@ -101,6 +101,19 @@
                 box-sizing: border-box;
                 padding: none;
         }
+        .Containers img{
+                width: 100%;
+        }
+        .slideshow-container{
+                width: 100%;
+        }
+
+        .choose-box {
+                width: 100%;
+        }
+        .choose-box .box_1{
+                width: 100%;
+        }
 
 }
 
@@ -127,19 +140,7 @@
 
         /* services section  */
       
-        .Containers img{
-                width: 100%;
-        }
-        .slideshow-container{
-                width: 100%;
-        }
-
-        .choose-box {
-                width: 100%;
-        }
-        .choose-box .box_1{
-                width: 100%;
-        }
+      
       .box_1 #text_heading{
         font-size: 18px;
       }
