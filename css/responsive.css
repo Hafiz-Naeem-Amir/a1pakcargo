@@ -71,7 +71,12 @@
         #container {
                 width: 100%;
         }
+        .services_container {
+                width: 95%;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
 
+        }
 
 }
 
@@ -114,6 +119,12 @@
         .choose-box .box_1{
                 width: 100%;
         }
+        .services_container {
+                width: 95%;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+
+        }
 
 }
 
@@ -147,6 +158,12 @@
       .box_1 p{
         font-size: 15px;
       }
+      .services_container {
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+}
 }
 
 @media screen and (max-width:425px) {
@@ -185,5 +202,12 @@
 
         .form .h1 {
                 font-size: 1.5rem;
+        }
+        /* <!-- services section  */
+        .services_container {
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr;
+
         }
 }
