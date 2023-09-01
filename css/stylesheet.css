@@ -90,7 +90,7 @@ h4 {
 
 /* header section  */
 .background_img {
-   /* background: url('/imags/a2.jpg'); */
+   background: url('/imags/a2.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    height: 100%;
