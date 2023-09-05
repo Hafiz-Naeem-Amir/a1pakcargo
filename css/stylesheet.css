@@ -55,7 +55,7 @@ h3 {
    padding-top: .7rem;
    padding-bottom: .7rem;
    font-weight: 500;
-   font-family: sans-serif;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
@@ -63,9 +63,13 @@ p {
    color: #000;
    line-height: initial;
 }
+.p{
+   font-size: 17px;
+}
 
 h4 {
    font-size: 68px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .btn {
@@ -87,7 +91,15 @@ h4 {
    color: white;
    background-color: #28296A;
 }
-
+span a{
+   color: blue;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+   font-size: 18px;
+}
+span a:hover{
+   color:var(--min-color);
+}
 /* header section  */
 .background_img {
    background: url('/imags/a2.jpg');
@@ -96,80 +108,61 @@ h4 {
    height: 100%;
    width: 100%;
 }
-
 .header {
-   width: 98%;
+   max-width: 98%;
    margin: auto;
    display: flex;
    align-items: center;
    justify-content: space-between;
+}
+.navbar{
+   overflow-x: hidden;
+   max-width: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.7rem;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
-
-.navbar .menu {
+.navbar  #btn i{
+   font-size: 3rem;
+}
+.navbar  #btn{
    display: none;
-   font-size: 50px;
-}
+   background-color:white;
+   width: 3rem;
 
+}
 nav {
    display: flex;
    align-items: center;
+
 }
 
 nav a {
    padding: 0rem .6rem;
    color: black;
    font-size: 14px;
-
-   font-family: "Myriad Pro regular";
    FONT-WEIGHT: bold;
 }
 
 nav a:hover {
    color: var(--min-color);
 }
-
-.icon_2 {
-   width: 40px;
-   height: 40px;
+.whatsapp{
+   background-color: #25D366;
+   border: 1px solid #25D366;
+   border-radius: 50% ;
+   text-align: center;
    display: flex;
    align-items: center;
    justify-content: center;
-   border-radius: 100%;
-   background-color: #16950D;
+   /* padding: 3px;  */
 }
-
-.icon_2 .whatsapp {
-   color: rgb(252, 252, 252);
-   margin-top: 5px;
-
-
-}
-
-.icon_2 p {
-
-   padding-left: 10px;
-   text-decoration: underline;
-   font-size: 20px;
-   color: #000;
-   font-family: "Myriad Pro regular";
-   FONT-WEIGHT: bold;
-   font-size: 25px;
-}
-
-.icon_2 i {
+.whatsapp i{
    font-size: 1.8rem;
-   color: #fcfcfc;
-
-}
-
-.navbar p {
-   padding: 1rem;
-   font-family: "Myriad Pro regular";
-   FONT: bold;
-   font-weight: 100;
-   font-size: 22px;
-   text-decoration: underline;
+   color: white;
 }
 
 /* banner container styling */
@@ -270,6 +263,7 @@ nav a:hover {
 }
 .choose_us h1 {
    color: var(--min-color);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /* croussel */
 .crousel {
@@ -387,12 +381,6 @@ nav a:hover {
       opacity: 2
    }
 }
-
-.choose-box {
-   /* background-color: #0cf504; */
-
-}
-
 .choose-box .box_1 {
    display: flex;
    border: 2px solid rgba(255, 255, 255, 0.842);
@@ -427,12 +415,13 @@ nav a:hover {
 
 /* services section  */
 .services_section {
-   background-color: #EFEFEF;
+   background-color: #f3f3f3c9;
 }
 
 .services_section h1 {
    padding-top: 2rem;
    padding-bottom: 2rem;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    color: var(--min-color);
 }
 
@@ -511,5 +500,72 @@ nav a:hover {
 #box:hover img{
    z-index: 5;
    position: relative;
+   color: white;
+}
+/* pak_cargo-section */
+.pak_cargo-container{
+   width: 95%;
+   margin: 1rem auto;
+}
+.pak_cargo-container .h1{
+   color: var(--min-color);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cargo_imags{
+display: flex;
+/* flex-wrap: wrap; */
+gap: 1.5rem;
+padding-bottom: 1rem;
+}
+.cargo_imags img{
+   border: 0px solid rgb(245, 242, 242);
+   border-radius: 10px;
+}
+/* areas_section */
+.areas_section{
+   
+background-color: var(--min-color);
+}
+.area_container{
+   display: flex;
+   flex-direction: column;
+   width: 95%;
+   margin: 0rem auto;
+   gap: 1rem;
+}
+.area_container .container{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+position: relative;
+}
+ #container_2{
+   
+
+   
+} 
+.container .ancher{
+  display: flex;
+   color: white;
+   width: 33%;
+   padding: 1rem;
+   border-bottom:2px dotted white;
+
+}
+.area_box{
+   color: white;
+   display: flex;
+   justify-content: space-between;
+}
+.area_box a{
+   padding-left: 10px;
+   color: white;
+   
+}
+ .h2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    color: white;
 }

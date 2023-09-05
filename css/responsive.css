@@ -12,18 +12,11 @@
                 background-color: #118E09;
         }
 
-        .icon_2 .whatsapp {
+         .whatsapp {
 
                 margin-top: 5px;
 
         }
-
-        .icon_2 p {
-                padding-left: 8px;
-                font: size 160px;
-                font-size: 18px;
-        }
-
 }
 
 @media screen and (max-width:1136px) {
@@ -48,22 +41,6 @@
 
 
         }
-
-        .navbar .menu {
-                display: block;
-        }
-
-        .icon_2 .whatsapp {
-                margin-top: 5px;
-
-        }
-
-        .icon_2 p {
-                padding-left: 6px;
-                font: size 140px;
-                font-size: 13px;
-        }
-
         .banner_img {
                 display: none;
         }
@@ -85,15 +62,26 @@
                 background-color: white;
                 display: flex;
                 align-items: center;
+                justify-content: space-between;
         }
-
-        nav a {
+        .header{
+                display: flex;
+               
+        }
+        .navbar  #btn{
+                /* display: none; */
+                background-color:white;
+                width: 3rem;
+             
+             }
+        .whatsapp{
                 display: none;
         }
-
-        .navbar i {
-                display: block;
-
+        .ancher{
+                display: none;
+        }
+        #navbar{
+                display: none;
         }
         /* services section  */
         .choose_container {
@@ -129,6 +117,7 @@
 }
 
 @media screen and (max-width:768px) {
+        
         .services {
                 display: block;
                 display: flex;
@@ -163,6 +152,16 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
 
+}
+/* pak_cargo-section */
+.cargo_imags{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-wrap: wrap;
+}
+.cargo_imags img{
+        width: 47%;
 }
 }
 
@@ -210,4 +209,63 @@
                 grid-template-columns: 1fr;
 
         }
+        /* pak_cargo-section */
+        .cargo_imags img{
+                width: 90%;
+        }
+        .cargo_text h2{
+                font-size: 20px;
+        }
+        .cargo_text .p{
+    font-size: 15px;
+        }
 }
+/*<div class="ancher">
+      <a href="https://a1pakcargo.com/edinburgh" >
+        <div class="area_box">
+          <i class='bx bxs-right-arrow'></i><span><a href="">London</a></span>
+          </div>
+      </a>
+    </div>
+    <div class="ancher">
+      <a href="https://a1pakcargo.com/edinburgh" >
+        <div class="area_box">
+          <i class='bx bxs-right-arrow'></i><span><a href="">London</a></span>
+          </div>
+      </a>
+    </div>
+    <div class="ancher">
+      <a href="https://a1pakcargo.com/edinburgh" >
+        <div class="area_box">
+          <i class='bx bxs-right-arrow'></i><span><a href="">London</a></span>
+          </div>
+      </a>
+    </div>
+    <div class="ancher">
+      <a href="https://a1pakcargo.com/edinburgh" >
+        <div class="area_box">
+          <i class='bx bxs-right-arrow'></i><span><a href="">London</a></span>
+          </div>
+      </a>
+    </div>
+    <div class="ancher">
+      <a href="https://a1pakcargo.com/edinburgh" >
+        <div class="area_box">
+          <i class='bx bxs-right-arrow'></i><span><a href="">London</a></span>
+          </div>
+      </a>
+    </div>
+    <div class="ancher">
+      <a href="https://a1pakcargo.com/edinburgh" >
+        <div class="area_box">
+          <i class='bx bxs-right-arrow'></i><span><a href="">London</a></span>
+          </div>
+      </a>
+    </div>
+    <div class="ancher">
+      <a href="https://a1pakcargo.com/edinburgh" >
+        <div class="area_box">
+          <i class='bx bxs-right-arrow'></i><span><a href="">London</a></span>
+          </div>
+      </a>
+    </div> */

@@ -9,33 +9,44 @@
   <link rel="stylesheet" href="css/responsive.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
+  <style>
+    .d-none {
+      display:none !important;
+    }
+  </style>
 </head>
 
 <body>
   <section class="background_img">
     <header>
-      <div class="header">
-        <div class="logo"><img src="logo/a1-pak-cargo-logo.png " height="100%" width="100%" alt="#logo"></div>
-        <nav class="navbar">
-          <a href="#HOME">HOME</a>
-          <a href="#AIR_CARGO">AIR CARGO</a>
-          <a href="#SEA_CARGO">SEA CARGO</a>
-          <a href="#DOOR_TO_DOOR CARGO">DOOR TO DOOR CARGO</a>
-          <a href="#SERVICES">SERVICES</a>
-          <a href="#ABOUT_US">ABOUT US</a>
-          <a href="#CONTACT_US">CONTACT US</a>
-          <div class="icon_2">
-            <div class="whatsapp">
-              <i class='whatsapp bx bxl-whatsapp'></i>
-            </div>
-
+      <div class="header" class="d-none">
+        <div >
+          <img src="logo/a1-pak-cargo-logo.png " width="200px" alt="#logo">
+        </div>
+        <div class="navbar">
+          <nav id="navbar" >
+            <a href="#HOME">HOME</a>
+            <a href="#AIR CARGO">AIR CARGO</a>
+            <a href="#SEA CARGO">SEA CARGO</a>
+            <a href="#DOOR TO DOOR CARGO">DOOR TO DOOR CARGO</a>
+            <a href="#SERVICES">SERVICES</a>
+            <a href="#ABOUT US">ABOUT US</a>
+            <a href="#CONTACT US">CONTACT US</a>
+          </nav>
+          <div class="whatsapp">
+            <i class='bx bxl-whatsapp'></i>
           </div>
-          <p>07424380227</p>
-          <i class=' menu bx bx-menu '></i>
-        </nav>
+          <div class="ancher"> <a href="#07424380227">07424380227</a></div>
+          <button onclick="classToggle()" id="btn"><i class=' bx bx-menu' ></i></button>
+        </div>
       </div>
 
     </header>
+    <script>
+      function classToggle() {
+        document.getElementById("navbar").classList.toggle("d-none");
+      }
+    </script>
     <section class="banner">
 
       <div class="container">
@@ -188,145 +199,286 @@
       OUR CARGO SERVICES TO PAKISTAN & AZAD KASHMIR
     </h1>
     <div class="services_container">
-      <div id="box" >
-          <img src="services_logo/multi.png" alt="" width="100px">
-         <div> <h2>Ali Cargo Services</h2></div>
-          <div>
-            <p>Air cargo service at cheapest price from anywhere in UK to anywhere in Pakistan, for standardized and quick
-              cargo service choose A1 Pak Cargo</p>
-          </div>
-          <div id="btn_box"> 
-            <a href="" class="box_btn">Read More</a>
-          </div>
-          <!-- <div class="space">
-      
-          </div> -->
-      </div>
-      <div id="box" >
-        <img src="services_logo/multi.png" alt="" width="100px">
-       <div> <h2>Sea Cargo Service</h2></div>
+      <div id="box">
+        <img src="services_logo/1.png" alt="" width="100px">
         <div>
-          <p>Sea cargo service with cheapest online shipping rates, send cargo from UK to Pakistan. A1 Pak Cargo provide services for all weightage.</p>
+          <h2>Ali Cargo Services</h2>
         </div>
-        <div id="btn_box"> 
+        <div>
+          <p>Air cargo service at cheapest price from anywhere in UK to anywhere in Pakistan, for standardized and quick
+            cargo service choose A1 Pak Cargo</p>
+        </div>
+        <div id="btn_box">
           <a href="" class="box_btn">Read More</a>
         </div>
-        <!-- <div class="space">
-    
-        </div> -->
-    </div>
-    <div id="box" >
-      <img src="services_logo/multi.png" alt="" width="100px">
-     <div> <h2>Door To Door Cargo</h2></div>
-      <div>
-        <p>Door to door cargo service is provided from source to destination at possible cheapest prices. A1 pak cargo provides you trusted and well managed service.</p>
       </div>
-      <div id="btn_box"> 
-        <a href="" class="box_btn">Read More</a>
+      <div id="box">
+        <img src="services_logo/2.png" alt="" width="100px">
+        <div>
+          <h2>Sea Cargo Service</h2>
+        </div>
+        <div>
+          <p>Sea cargo service with cheapest online shipping rates, send cargo from UK to Pakistan. A1 Pak Cargo provide
+            services for all weightage.</p>
+        </div>
+        <div id="btn_box">
+          <a href="" class="box_btn">Read More</a>
+        </div>
       </div>
-      <!-- <div class="space">
-  
-      </div> -->
-  </div>
- 
-  <div id="box" >
-    <img src="services_logo/multi.png" alt="" width="100px">
-   <div> <h2>Excess Baggage</h2></div>
-    <div>
-      <p>Send your excess baggage from UK to Pakistan at unbeatable lowest rates. Our fast and easy online shipping quote will help to find suitable package for you.</p>
+      <div id="box">
+        <img src="services_logo/3.png" alt="" width="100px">
+        <div>
+          <h2>Door To Door Cargo</h2>
+        </div>
+        <div>
+          <p>Door to door cargo service is provided from source to destination at possible cheapest prices. A1 pak cargo
+            provides you trusted and well managed service.</p>
+        </div>
+        <div id="btn_box">
+          <a href="" class="box_btn">Read More</a>
+        </div>
+      </div>
+
+      <div id="box">
+        <img src="services_logo/4.png" alt="" width="100px">
+        <div>
+          <h2>Excess Baggage</h2>
+        </div>
+        <div>
+          <p>Send your excess baggage from UK to Pakistan at unbeatable lowest rates. Our fast and easy online shipping
+            quote will help to find suitable package for you.</p>
+        </div>
+        <div id="btn_box">
+          <a href="" class="box_btn">Read More</a>
+        </div>
+      </div>
+      <div id="box">
+        <img src="services_logo/5.png" alt="" width="100px">
+        <div>
+          <h2>Parcel Service</h2>
+        </div>
+        <div>
+          <p>A1 Pak Cargo provides the cheapest parcel delivery from UK to Pakistan. Get free online quote. Just enter
+            your parcel's dimensions and verify the best deals we offer.</p>
+        </div>
+        <div id="btn_box">
+          <a href="" class="box_btn">Read More</a>
+        </div>
+      </div>
+      <div id="box">
+        <img src="services_logo/6.png" alt="" width="100px">
+        <div>
+          <h2>Freight Services</h2>
+        </div>
+        <div>
+          <p>Freight forwarding service is provided to customers on cheapest rates. We accept challenges for our
+            customers to provide them best freight cargo service.</p>
+        </div>
+        <div id="btn_box">
+          <a href="" class="box_btn">Read More</a>
+        </div>
+      </div>
+      <div id="box">
+        <img src="services_logo/7.png" alt="" width="100px">
+        <div>
+          <h2>Courier Service</h2>
+        </div>
+        <div>
+          <p>A1pakcargo is an international courier delivery service to Pakistan from UK that offers reliable, fast,
+            secure, time confident service to its customers.</p>
+        </div>
+        <div id="btn_box">
+          <a href="" class="box_btn">Read More</a>
+        </div>
+      </div>
+      <div id="box">
+        <img src="services_logo/8.png" alt="" width="100px">
+        <div>
+          <h2>Electronic Shipping</h2>
+        </div>
+        <div>
+          <p>A1 Pak Cargo provides best shipping rates to send any type of electrical appliances to Pakistan from UK by
+            door to door, secure and safe delivery by air and sea cargo.</p>
+        </div>
+        <div id="btn_box">
+          <a href="" class="box_btn">Read More</a>
+        </div>
+      </div>
+      <div id="box">
+        <img src="services_logo/9.png" alt="" width="100px">
+        <div>
+          <h2>Cosmetics</h2>
+        </div>
+        <div>
+          <p>Are you looking forward to expanding your cosmetics business internationally or are you one of those people
+            who want to take advantage of the makeup.</p>
+        </div>
+        <div id="btn_box">
+          <a href="" class="box_btn">Read More</a>
+        </div>
+      </div>
+      <div id="box">
+        <img src="services_logo/10.png" alt="" width="100px">
+        <div>
+          <h2>House Removals</h2>
+        </div>
+        <div>
+          <p>Whether you are relocating to a new place with your family members, going to start a new semester as a
+            student, or are planning on setting up your business.</p>
+        </div>
+        <div id="btn_box">
+          <a href="" class="box_btn">Read More</a>
+        </div>
+      </div>
+      <div id="box">
+        <img src="services_logo/11.png" alt="" width="100px">
+        <div>
+          <h2>Container Shipping</h2>
+        </div>
+        <div>
+          <p>A1 Pak Cargo is a reputable freight forwarding company that offers logistic services including container
+            shipping to any destination worldwide.</p>
+        </div>
+        <div id="btn_box">
+          <a href="" class="box_btn">Read More</a>
+        </div>
+      </div>
     </div>
-    <div id="btn_box"> 
-      <a href="" class="box_btn">Read More</a>
+    <div class="services_logo">
+      <img src="services_logo/icon.png" alt="">
     </div>
-    <!-- <div class="space">
-
-    </div> -->
-</div>
-<div id="box" >
-  <img src="services_logo/multi.png" alt="" width="100px">
- <div> <h2>Parcel Service</h2></div>
-  <div>
-    <p>A1 Pak Cargo provides the cheapest parcel delivery from UK to Pakistan. Get free online quote. Just enter your parcel's dimensions and verify the best deals we offer.</p>
-  </div>
-  <div id="btn_box"> 
-    <a href="" class="box_btn">Read More</a>
-  </div>
-  <!-- <div class="space">
-
-  </div> -->
-</div>
-<div id="box" >
-  <img src="services_logo/multi.png" alt="" width="100px">
- <div> <h2>Freight Services</h2></div>
-  <div>
-    <p>Freight forwarding service is provided to customers on cheapest rates. We accept challenges for our customers to provide them best freight cargo service.</p>
-  </div>
-  <div id="btn_box"> 
-    <a href="" class="box_btn">Read More</a>
-  </div>
-  <!-- <div class="space">
-
-  </div> -->
-</div>
-<div id="box" >
-  <img src="services_logo/multi.png" alt="" width="100px">
- <div> <h2>Courier Service</h2></div>
-  <div>
-    <p>A1pakcargo is an international courier delivery service to Pakistan from UK that offers reliable, fast, secure, time confident service to its customers.</p>
-  </div>
-  <div id="btn_box"> 
-    <a href="" class="box_btn">Read More</a>
-  </div>
-  <!-- <div class="space">
-
-  </div> -->
-</div>
-<div id="box" >
-  <img src="services_logo/multi.png" alt="" width="100px">
- <div> <h2>Electronic Shipping</h2></div>
-  <div>
-    <p>A1 Pak Cargo provides best shipping rates to send any type of electrical appliances to Pakistan from UK by door to door, secure and safe delivery by air and sea cargo.</p>
-  </div>
-  <div id="btn_box"> 
-    <a href="" class="box_btn">Read More</a>
-  </div>
-  <!-- <div class="space">
-
-  </div> -->
-</div>
-<div id="box" >
-  <img src="services_logo/multi.png" alt="" width="100px">
- <div> <h2>Cosmetics</h2></div>
-  <div>
-    <p>Are you looking forward to expanding your cosmetics business internationally or are you one of those people who want to take advantage of the makeup.</p>
-  </div>
-  <div id="btn_box"> 
-    <a href="" class="box_btn">Read More</a>
-  </div>
-  <!-- <div class="space">
-
-  </div> -->
-</div>
-<div id="box" >
-  <img src="services_logo/multi.png" alt="" width="100px">
- <div> <h2>House Removals</h2></div>
-  <div>
-    <p>Whether you are relocating to a new place with your family members, going to start a new semester as a student, or are planning on setting up your business.</p>
-  </div>
-  <div id="btn_box"> 
-    <a href="" class="box_btn">Read More</a>
-  </div>
-  <!-- <div class="space">
-
-  </div> -->
-</div>
-
-
+  </section>
+  <!-- PAK_CARGO_section -->
+  <section class="PAK_CARGO_section">
+    <div class="pak_cargo-container">
+      <h1 class="h1">A1 PAK CARGO</h1>
+      <div class="cargo_imags">
+        <img src="imags/home1.jpg" width="32%" alt="">
+        <img src="imags/home2.jpg" width="32%" alt="">
+        <img src="imags/home3.jpg" width="32%" alt="">
+      </div>
+      <div class="cargo_discription">
+        <div class="cargo_text">
+          <h2>WE SHIP ALL OVER WORLD</h2>
+          <div class="p">A1pakcargo is very responsible as compared to other shipping companies while you want to send
+            your gifts, parcels, baggage's, to Pakistan from UK by air. A1pakcargo is only the one, which offers you
+            this facility. Our cargo service covers all the major airports in Pakistan and UK also. It provides you
+            International shipping at cheapest rates. Get free freight quote. We have our own network to distribute your
+            goods as well as our company has a partnership with the all well-known airlines. Security assurance, your
+            money, your time, your trust are the main focused of our company. Due to all these factors, pak cargo
+            services are best cheapest, fastest and trusty for their customers.</div>
+        </div>
+        <div class="cargo_text">
+          <h2>Delivering Excellence!</h2>
+          <div class="p">No matter what type, size, and frequency of your cargo is, we at A1pakcargo offer our customers
+            affordable shipping costs. We provide you with the flexibility of shipping your high value and
+            time-sensitive shipments where it needs to be when it needs to be. You can book our services online to
+            receive the cheapest quotes that meet your needs and budget. We prioritize our customer’s satisfaction and
+            take care of all their shipment needs.</div>
+        </div>
+        <div class="cargo_text">
+          <h2>We Go The Extra Miles For Our Customers</h2>
+          <div class="p">A1pakcargo has a dedicated team of professionals who are always on the go and provide 24/7
+            services to their customers. We are committed to providing better and practical shipping solutions for your
+            baggage and therefore keep track of your shipments from booking till delivery.</div>
+        </div>
+        <div class="cargo_text">
+          <h2>Get Your Items Delivered From Skyline To Shoreline</h2>
+          <div class="p">You can ship your items door-to-door in several ways. A1pakcargo provides different transport
+            modes, from sea to air freight to get your items delivered from UK to Pakistan. Depending upon the location,
+            you will probably opt for one of these methods to <span><a href="">send your excess luggage</a> </span> ,
+            parcels, gifts, or electronic equipment.</div>
+        </div>
+        <div class="cargo_text">
+          <h2>We Deliver Your Cargo A1pakcargo Air Freight Services</h2>
+          <div class="p">The fastest channel to deliver your parcels anywhere in the world is through Air Cargo.
+            A1pakcargo is associated with an extensive network of agents and well-known airlines to get your items
+            shipped from UK to Pakistan. You can book our <span><a href="">air cargo services</a> </span> online by
+            filling in the collection form at our website to receive instant quotes and choose a suitable package for
+            your shipment needs.</div>
+        </div>
+      </div>
     </div>
-    
+  </section>
+  <section class="areas_section">
+    <div class="area_container">
+     <h1 class="h1">MAJOR AREAS</h1>
+   <div class="container">
+    <div class="ancher">
+      <a href="https://a1pakcargo.com/edinburgh" >
+        <div class="area_box">
+          <i class='bx bxs-right-arrow'></i><span><a href="">London</a></span>
+          </div>
+      </a>
+    </div>
+    <div class="ancher">
+      <a href="https://a1pakcargo.com/edinburgh" >
+        <div class="area_box">
+          <i class='bx bxs-right-arrow'></i><span><a href="">London</a></span>
+          </div>
+      </a>
+    </div>
+    <div class="ancher">
+      <a href="https://a1pakcargo.com/edinburgh" >
+        <div class="area_box">
+          <i class='bx bxs-right-arrow'></i><span><a href="">London</a></span>
+          </div>
+      </a>
+    </div>
+    <div class="ancher">
+      <a href="https://a1pakcargo.com/edinburgh" >
+        <div class="area_box">
+          <i class='bx bxs-right-arrow'></i><span><a href="">London</a></span>
+          </div>
+      </a>
+    </div>
+   </div>
+   <div class="container  d-none" id="ali">
+    <div class="ancher">
+      <a href="https://a1pakcargo.com/edinburgh" >
+        <div class="area_box">
+          <i class='bx bxs-right-arrow'></i><span><a href="">London</a></span>
+          </div>
+      </a>
+    </div>
+    <div class="ancher">
+      <a href="https://a1pakcargo.com/edinburgh" >
+        <div class="area_box">
+          <i class='bx bxs-right-arrow'></i><span><a href="">London</a></span>
+          </div>
+      </a>
+    </div>
+    <div class="ancher">
+      <a href="https://a1pakcargo.com/edinburgh" >
+        <div class="area_box">
+          <i class='bx bxs-right-arrow'></i><span><a href="">London</a></span>
+          </div>
+      </a>
+    </div>
+    <div class="ancher">
+      <a href="https://a1pakcargo.com/edinburgh" >
+        <div class="area_box">
+          <i class='bx bxs-right-arrow'></i><span><a href="">London</a></span>
+          </div>
+      </a>
+    </div>
+   </div>
+   <h2 class="h2"><button onclick="click_toggel()" class="btn">Click For Less Area<span><i class='bx bx-chevron-down'></i></span></button> </h2>
+   <div class="services_logo">
+    <img src="services_logo/icon.png" alt="">
+  </div>
+  </div>
 
   </section>
+
+  <script>
+    function click_toggel(){
+      document.getElementById("ali").classList.toggle("d-none");
+    } 
+  </script>
   <script src="js/index.js"></script>
+
+
 </body>
 
 </html>
